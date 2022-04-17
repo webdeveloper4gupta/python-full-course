@@ -1,0 +1,7 @@
+f=open("sukritan.txt",'w')
+f.write("thisi ssukritan gupta")
+f.close()
+f=open("sukritan.txt",'r')
+data=f.read()
+print(data)
+f.close()
